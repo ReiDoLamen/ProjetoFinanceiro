@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- META -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Financeiro"> 
+
+  <title>Financeiro</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="./img/icons8-general-ledger-96.png" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/">
+
+</head>
+<body>
+  <main class="main-container">
+    <section class="container">
+      <h1>Financeiro</h1>
+      <p>Sistema de gerenciamento financeiro</p>
+      
+      <div class="container-main">
+      <div class="inputs-main">
+      <label for="">Data:</label>
+      <input type="date" name="date" id="date">
+
+      <label for="">Descrição</label>
+      <input type="text" name="description" id="description" placeholder="Descrição">
+      
+      <label for="">Valor</label>
+      <input type="number" name="value" id="value" placeholder="Valor">
+      
+      <label for="">Entrada/saida</label>
+      
+      <h1 id="Valor-total"> <span></span></h1>
+      <select name="" id="">
+        <option value="entrada" id="entrada">Entrada</option>
+        <option value="saida" id="saida">Saída</option>'
+      </select>
+    </div>
+
+      <div class="generator-main">
+      <table id="generater-table"></table>    
+      </div>
+
+      <div class="buttons">
+        <button type="button">Confirmar</button>
+        <button type="button">Deletar</button>
+        <button type="button">Salvar</button>
+        <button type="button">Fechar faturamento</button>
+      </div>
+
+    </div>
+    </section>
+
+    <section class="resposta">
+      <h1>Faturamento</h1>
+
+      <div class="resposta-main">
+        <table id="resposta-table">
+
+        </table>
+      </div>
+      </section>
+
+    <aside>
+      <h2></h2>
+      
+      </aside>
+
+    <footer class="footer">
+    
+      <h2>Redes Sociais</h2>
+      <div class="social-media">
+        <a href="#"><img src="./img/icons8-facebook-circle-50.png" alt="Facebook"></a>
+        <a href="#"><img src="./img/icons8-twitter-circle-50.png" alt="Twitter"></a>
+        <a href="#"><img src="./img/icons8-instagram-circle-50.png" alt="Instagram"></a>
+      </div>
+      <p>Todos os direitos reservados &copy; 2021</p>
+    </footer>
+  </main>
+
+
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
