@@ -1,9 +1,9 @@
 .main-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
-  border: 5px solid #333;
+  height: 100vh;
 }
 
 
@@ -12,9 +12,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   border: 5px solid #333;
-  height: 35vh;
+  border-radius: 10px;
+
+  height: 45vh;
   width: 50rem;
+}
+.container h1,p {
+  display: flex;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .container-main {
@@ -29,7 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-bottom:20px ;
 }
 
 .generator-main {
@@ -37,21 +45,73 @@
   justify-content: center;
   align-items: center;
 
+  border: 5px solid #333;
+  border-radius: 10px;
+
+  height: 20vh;
+  width: 50rem;
+  background: #555555;
 }
 
 .buttons {
   display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.Container-down {
+  display: flex;
+  border: 5px solid #333;
+  border-radius: 10px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  height: 25vh;
+  width: 50rem;
 
 }
 
-.resposta {}
-
-footer {
+.resposta {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+}
+
+.resposta h1 {
+  margin-bottom: 1rem;
+}
+
+.resposta-main {
+  border: 5px solid #333;
+  height: 15vh;
+  width: 50rem;
+  background: #555555;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.footer h2 {
+  margin-top: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding: 10px;
+  margin-top: 10px;
+
 }
