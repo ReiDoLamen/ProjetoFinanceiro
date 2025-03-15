@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+
+  <link rel="stylesheet" href="../css/Login.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/media.css">
+
+</head>
+<body>
+  <main class="Main_container">
+    <section class="Container">
+      <header class="Header_container">
+      <h1>Login</h1>
+    </header>
+    <!-- action="../index.html" -->
+      <form action="" method="post">
+        <div id="singUpMessage" class="messageDiv" style="display: none;"></div>
+        <label for="FNome">Primeiro nome:</label>
+        <input type="text" id="FNome" placeholder="Seu nome">
+        <label for="SNome">Sobrenome:</label>
+        <input type="text" id="SNome" placeholder="Seu sobrenome">
+        <label for="email">Email:</label>
+        <input type="email" id="Email" name="email" required>
+        <label for="senha">Senha</label>
+        <input type="password" id="Senha" name="senha" required>
+       <a href="../index.html"> 
+        <button class="btn" id="Submit">Login</button>
+      </a>
+      <ul>
+       <li><a href="../Esqueci a senha/Senha.html">Esqueci minha senha</a></li> 
+      </ul>  
+      </form>
+    </section>
+  </main>
+  <!-- <script type="module" src="../../backend/firebaseauth.js"></script> -->
+  <script type="module"  src="./login.js"></script>
+
+</body>
+</html>
